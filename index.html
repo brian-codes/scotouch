@@ -300,12 +300,12 @@
             element.html('BBC Online');
             element.attr('target', 'bbconline');
             
-            var newLink = ' | <a href="https://www.youtube.com/user/EnglandTouch/" target="YouTube1">YouTube</a>';
+            var newLink = ' | <a href="https://www.youtube.com/user/EnglandTouch/videos?view=2&flow=grid" target="youtube1">YouTube</a>';
             element.after( newLink );
         });
         $('[data-link="2"]').each(function() {
             var element = $(this);
-            element.attr('href', 'https://www.youtube.com/user/EnglandTouch/');
+            element.attr('href', 'https://www.youtube.com/user/EnglandTouch/videos?view=2&flow=grid');
             element.attr('target', 'youtube2');
             element.html('YouTube');
         });
